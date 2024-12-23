@@ -65,3 +65,12 @@ Docker for containerization.
 ├── docker-compose.yml            # Docker Compose file for easy deployment
 ├── requirements.txt              # Python dependencies
 └── README.md                     # Project documentation
+
+*Developed by:
+*[Italic Link](https://github.com/jamleston)*
+*[Italic Link](https://github.com/YuliiaChorna1)*
+*[Italic Link](https://github.com/Anastasya2701)*
+*[Italic Link](https://github.com/BoarArtem)*
+*[Italic Link](https://github.com/Zippozuzu)*
+*[Italic Link](URL)*
+*[Italic Link](URL)*
