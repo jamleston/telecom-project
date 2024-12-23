@@ -1,12 +1,12 @@
-Customer Churn Prediction for a Telecom Company
+<<<<Customer Churn Prediction for a Telecom Company>>>>
 
 
 
-Project Overview
+*Project Overview
 
 This project aims to develop a predictive model for identifying the probability of customer churn in a telecom company. Using historical customer data, the project leverages exploratory data analysis (EDA), data preprocessing, and machine learning techniques to build an accurate churn prediction model.
 
-Features
+*Features
 
 -Exploratory Data Analysis (EDA):
 --Dataset Overview:The project analyzes a dataset of over 70,000 unique customers from an internet service provider.
@@ -34,7 +34,7 @@ Features
 --Dockerized model for ease of deployment and reproducibility.
 
 
-Technologies Used
+*Technologies Used
 
 Languages: Python
 Libraries:
@@ -46,15 +46,15 @@ Jupyter Notebook for development and analysis.
 Git & GitHub for version control and collaboration.
 Docker for containerization.
 
-Installation
+*Installation
 
 ...
 
-Usage
+*Usage
 
 ...
 
-Repository Structure
+*Repository Structure
 
 ├── internet_service_churn/       # Contains the dataset
 ├── notebooks/                    # Jupyter notebooks for analysis
