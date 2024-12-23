@@ -1,9 +1,13 @@
 Customer Churn Prediction for a Telecom Company
 
+
+
 Project Overview
+
 This project aims to develop a predictive model for identifying the probability of customer churn in a telecom company. Using historical customer data, the project leverages exploratory data analysis (EDA), data preprocessing, and machine learning techniques to build an accurate churn prediction model.
 
 Features
+
 -Exploratory Data Analysis (EDA):
 --Dataset Overview:The project analyzes a dataset of over 70,000 unique customers from an internet service provider.
 ---Includes customer-specific attributes such as subscription age, average bill amount, service failures, and download/upload speeds.
@@ -17,16 +21,21 @@ Features
 ---Excessive download_over_limit is a potential churn driver.
 --Feature Importance:
 ---The analysis highlights key predictors of churn, including service_failure_count, remaining_contract, and bill_avg.
+
 -Data Preprocessing:
 --Handling missing values.
 --Normalization and encoding categorical variables.
+
 -Model Development:
 --Implementation of machine learning algorithms for churn prediction.
 --Evaluation using metrics like Accuracy, Recall, Precision, and F1 Score.
+
 -Deployment:
 --Dockerized model for ease of deployment and reproducibility.
 
+
 Technologies Used
+
 Languages: Python
 Libraries:
 Pandas, NumPy for data manipulation.
@@ -38,9 +47,21 @@ Git & GitHub for version control and collaboration.
 Docker for containerization.
 
 Installation
+
 ...
 
 Usage
+
 ...
 
 Repository Structure
+
+├── internet_service_churn/       # Contains the dataset
+├── notebooks/                    # Jupyter notebooks for analysis
+│   ├── analysis_yuli.ipynb       # Exploratory Data Analysis
+│   ├── Data_Preprocessing.ipynb  # Data preprocessing steps
+│   └── Model_Training.ipynb      # Model development and evaluation
+├── Dockerfile                    # Docker setup for containerization
+├── docker-compose.yml            # Docker Compose file for easy deployment
+├── requirements.txt              # Python dependencies
+└── README.md                     # Project documentation
