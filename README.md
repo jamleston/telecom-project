@@ -72,5 +72,5 @@ Docker for containerization.
 *[Italic Link](https://github.com/Anastasya2701)*
 *[Italic Link](https://github.com/BoarArtem)*
 *[Italic Link](https://github.com/Zippozuzu)*
-*[Italic Link](URL)*
-*[Italic Link](URL)*
+*[Italic Link](https://github.com/A1Q137)*
+*[Italic Link](Karim)*
