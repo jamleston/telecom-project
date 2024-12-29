@@ -1,6 +1,4 @@
-<<<<Customer Churn Prediction for a Telecom Company>>>>
-
-
+Customer Churn Prediction for a Telecom Company
 
 *Project Overview
 
@@ -23,12 +21,29 @@ This project aims to develop a predictive model for identifying the probability 
 ---The analysis highlights key predictors of churn, including service_failure_count, remaining_contract, and bill_avg.
 
 -Data Preprocessing:
---Handling missing values.
---Normalization and encoding categorical variables.
+--Processing Missing Values:
+---Columns like remaining_contract, download_avg, and upload_avg were analyzed.
+remaining_contract: Missing values (or zeros) are significant for churned customers, indicating potential removal due to contract termination. This column was dropped due to high missing rates (52.5%).
+download_avg and upload_avg: Outliers were identified, and missing values were replaced with the median for safety.
+--Encoding Categorical Variables:
+---Binary variables (is_tv_subscriber, is_movie_package_subscriber) were found to be already binary, negating the need for additional encoding.
+--Normalization of Features:
+---Standardization was applied to numerical features to ensure consistency in model input.
 
 -Model Development:
---Implementation of machine learning algorithms for churn prediction.
---Evaluation using metrics like Accuracy, Recall, Precision, and F1 Score.
+--Models Tried:
+---Logistic Regression
+---Decision Tree
+---Random Forest
+---Gradient Boosting
+--Gradient Boosting Performance:
+---This model demonstrated the best performance among all tested models.
+---Key Metrics:
+----Precision: 0.83 on average, with better performance on the positive class.
+----Recall: 0.83 for both classes, reflecting balanced detection capability.
+----F1-Score: Strong average of 0.83, indicating reliability.
+----ROC-AUC: High value of 0.91, showing excellent class separation capability.
+---Gradient Boosting was chosen for its ability to capture complex patterns and deliver high precision and recall, making it ideal for real-world applications.
 
 -Deployment:
 --Dockerized model for ease of deployment and reproducibility.
@@ -66,11 +81,17 @@ Docker for containerization.
 ├── requirements.txt              # Python dependencies
 └── README.md                     # Project documentation
 
-*Developed by:
-*[Italic Link](https://github.com/jamleston)*
-*[Italic Link](https://github.com/YuliiaChorna1)*
-*[Italic Link](https://github.com/Anastasya2701)*
-*[Italic Link](https://github.com/BoarArtem)*
-*[Italic Link](https://github.com/Zippozuzu)*
-*[Italic Link](https://github.com/A1Q137)*
-*[Italic Link](Karim)*
+## Developed by
+- [jamleston](https://github.com/jamleston)
+- [Yuliia Chorna](https://github.com/YuliiaChorna1)
+- [Anastasya](https://github.com/Anastasya2701)
+- [Boar Artem](https://github.com/BoarArtem)
+- [Zippozuzu](https://github.com/Zippozuzu)
+- [A1Q137](https://github.com/A1Q137)
+- [Karim](Karim)
+
+
+
+
+
+
