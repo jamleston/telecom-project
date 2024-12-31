@@ -4,4 +4,4 @@ WORKDIR $APP_HOME
 COPY . .
 RUN pip install -r requirements.txt
 EXPOSE 5000
-ENTRYPOINT ["python", "app.py"]
+ENTRYPOINT ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
