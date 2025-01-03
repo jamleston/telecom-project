@@ -95,15 +95,25 @@ Open your browser and go via link
 ## Repository Structure
 
 ```
-├── internet_service_churn/       # Contains the dataset
-├── notebooks/                    # Jupyter notebooks for analysis
-│   ├── analysis_yuli.ipynb       # Exploratory Data Analysis
-│   ├── Data_Preprocessing.ipynb  # Data preprocessing steps
-│   └── Model_Training.ipynb      # Model development and evaluation
-├── Dockerfile                    # Docker setup for containerization
-├── docker-compose.yml            # Docker Compose file for easy deployment
-├── requirements.txt              # Python dependencies
-└── README.md                     # Project documentation
+├── internet_service_churn.csv       # Original dataset
+├── preprocessed_dataset.csv         # Preprocessed dataset used for modeling
+├── analysis/                        # Jupyter notebooks for exploratory data analysis
+│   ├── analisis_K.ipynb             # EDA by Anastasya
+│   └── analysis_artem.ipynb         # EDA by Artem
+├── images/                          # Directory for storing visualizations
+├── models/                          # Model development notebooks
+│   ├── model_decision_tree.ipynb    # Decision Tree model training
+│   ├── model_logistic_regression.ipynb # Logistic Regression model training
+│   └── model_RF.ipynb               # Random Forest model training
+├── analysis_yuli.ipynb              # Chosen EDA by Yuli
+├── preprocessing.ipynb              # Data preprocessing
+├── model_GB.ipynb                   # Gradient Boosting model training
+├── gradient_boosting_model.pkl      # Serialized Gradient Boosting model
+├── app.py                           # Streamlit application for churn prediction
+├── Dockerfile                       # Docker setup for containerization
+├── docker-compose.yml               # Docker Compose file for deployment
+├── requirements.txt                 # Python dependencies
+└── README.md                        # Project documentation
 ```
 
 ## Developed by
