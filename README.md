@@ -48,7 +48,10 @@ This project aims to develop a predictive model for identifying the probability 
     - Gradient Boosting was chosen for its ability to capture complex patterns and deliver high precision and recall, making it ideal for real-world applications.
 
 **Deployment:**
-- Dockerized model for ease of deployment and reproducibility.
+- **Dockerized Model**:
+    - The project includes a Dockerized environment for easy deployment and reproducibility across different systems.
+- **Streamlit App**:
+    - A Streamlit web application is integrated into the project to provide an interactive interface for churn prediction.
 
 
 ## Technologies Used
@@ -70,7 +73,7 @@ pip install poetry
 poetry shell
 poetry update
 ```
-...
+# https://projectgoit11.streamlit.app/
 
 ## Usage
 
