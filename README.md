@@ -61,6 +61,7 @@ This project aims to develop a predictive model for identifying the probability 
     - **Pandas, NumPy** for data manipulation.
     - **Matplotlib, Seaborn** for data visualization.
     - **Scikit-learn** for machine learning.
+    - **Streamlit** For building an interactive web application to visualize data and make predictions
 - **Tools**:
     - **Jupyter Notebook** for development and analysis.
     - **Git & GitHub** for version control and collaboration.
