@@ -69,16 +69,28 @@ This project aims to develop a predictive model for identifying the probability 
 
 ## Installation
 
-```bash
-pip install poetry
-poetry shell
-poetry update
+To set up the environment and run the project, follow these steps:
+
+1. Clone the repository:
 ```
-# https://projectgoit11.streamlit.app/
+git clone https://github.com/jamleston/telecom-project
+cd telecom-project
+```
+2. Run the application:
+```
+docker-compose up --build
+```
+3. Access the application:
+Open your browser and go via link
+
+4. Or you can also see our project through this link:
+**https://projectgoit11.streamlit.app/**
 
 ## Usage
 
-...
+- Use an input form to simulate customer scenarios by entering individual customer attributes.
+- Receive predictions on whether a customer is likely to churn.
+- View the impact of feature values on churn predictions in real time.
 
 ## Repository Structure
 
